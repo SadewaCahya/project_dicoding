@@ -25,7 +25,7 @@ casual = create_casual_user(df)
 registered = create_registered_user(df)
 
 st.header("Bike Sharing Dashboard 🚲")
-st.image("D:\project dicoding\dashboard\images.jpeg")
+st.image("images.jpeg")
 st.subheader("Yearly User Casual & Registered (2011)")
 
 col1, col2 = st.columns(2)
